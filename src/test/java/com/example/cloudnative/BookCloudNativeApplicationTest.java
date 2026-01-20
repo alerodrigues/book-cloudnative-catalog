@@ -1,13 +1,14 @@
-package com.example.book_cloud_native;
+package com.example.cloudnative;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BookCloudNativeApplicationTests {
+public class BookCloudNativeApplicationTest {
 
 	@Test
 	void contextLoads() {
+		
 	}
-
+	
 }

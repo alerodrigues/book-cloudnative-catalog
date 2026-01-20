@@ -1,4 +1,4 @@
-package com.example.book_cloud_native;
+package com.example.cloudnative;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
