@@ -4,12 +4,10 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.springframework.stereotype.Repository;
-
 import com.example.cloudnative.domain.Book;
 import com.example.cloudnative.domain.BookRepository;
 
-@Repository
+// @Repository
 public class InMemoryBookRepository implements BookRepository {
 	private static final Map<String, Book> books = new ConcurrentHashMap<>();
 	
