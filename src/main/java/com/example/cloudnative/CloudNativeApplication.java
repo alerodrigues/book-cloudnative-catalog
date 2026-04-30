@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BookCloudNativeApplication {
+public class CloudNativeApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BookCloudNativeApplication.class, args);
+		SpringApplication.run(CloudNativeApplication.class, args);
 	}
 
 }
