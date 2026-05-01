@@ -1,0 +1,21 @@
+polar:
+  greeting: Welcome to the book catalog local!
+
+spring:
+  application:
+    name: book-cloudnative-catalog
+
+  datasource:
+    name: cloudnative
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/cloudnative
+
+  config:
+    import: "optional:configserver:"
+  cloud:
+    config:
+      uri: http://localhost:8888
+      request-connect-timeout: 5000
+      request-read-timeout: 5000
+      fail-fast: false
