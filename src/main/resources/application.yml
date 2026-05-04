@@ -1,5 +1,9 @@
-polar:
-  greeting: Welcome to the book catalog local!
+server:
+  port: 8081
+  shutdown: graceful
+  netty:
+    connection-timeout: 2s
+    idle-timeout: 15s
 
 spring:
   application:
@@ -15,7 +19,10 @@ spring:
     import: "optional:configserver:"
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: http://localhost:8080
       request-connect-timeout: 5000
       request-read-timeout: 5000
       fail-fast: false
+
+polar:
+  greeting: Welcome to the book catalog local!
